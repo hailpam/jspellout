@@ -1,0 +1,13 @@
+it/pm/jspellout/interpreter/NumbersInterpreterTest.class
+it/pm/jspellout/AppTest.class
+it/pm/jspellout/rules/handler/impl/EnglishBillionsHandlerTest.class
+it/pm/jspellout/templates/EnglishTemplatesTest.class
+it/pm/jspellout/model/SpellOutExceptionTest.class
+it/pm/jspellout/rules/handler/impl/EnglishHundredsHandlerTest.class
+it/pm/jspellout/rules/handler/impl/EnglishTensHandlerTest.class
+it/pm/jspellout/rules/EnglishRulesTest.class
+it/pm/jspellout/model/EnglishSpellResultTest.class
+it/pm/jspellout/rules/handler/impl/EnglishDigitsProcessorTest.class
+it/pm/jspellout/rules/handler/impl/EnglishMillionsHandlerTest.class
+it/pm/jspellout/rules/handler/impl/EnglishUnitsHandlerTest.class
+it/pm/jspellout/rules/handler/impl/EnglishThousandsHandlerTest.class

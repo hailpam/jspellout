@@ -56,11 +56,60 @@ following entry from the command prompt:
 this command will start the test Application by using the executable JAR provided
 in box by this release.
 
- 
-Versions
-________
 
-1.0 - first relesae
+
+Example
+=========
+
+ > mvn exec:java
+
+```
+ Welcome to jspellout v1.0!
+ __________________________
+
+ Usage: type any number (up to billions) to request the spell out
+ =================================================================
+  QUIT : Exit
+
+
+
+
+
+ +------------------------------------+
+ Please, insert the number to spell out 
+ >> 
+ 1230
+ [EnglishRules][applyRules] Order of magnitude in [4, 6] digits 
+ 	-->> Processing Thousands
+ [DigitsProcessor][processThousands] Request to process [4]digits
+ IN >>>
+ [Pipeline][ThousandsHandler]
+ [Pipeline][HundredsHandler]
+ [Pipeline][TensHandler]
+ [Pipeline][UnitsHandler]
+ [Pipeline][HundredsHandler]
+ [Pipeline][TensHandler]
+ <<< OUT
+ [EnglishTemplates][applyTemplate] Order of magnitude [UNITS] 
+	-->> Translating Units
+ [EnglishTemplates][applyTemplate] Order of magnitude [THOUSANDS] 
+	-->> Translating Thousands
+ [EnglishTemplates][applyTemplate] Order of magnitude [HUNDREDS] 
+	-->> Translating Hundreds
+ [EnglishTemplates][applyTemplate] Order of magnitude [TENS] 
+	-->> Translating Tens
+ +------------------------------------+
+ Spelling-->>[one thousand two hundreds and thirty]
+
+ +------------------------------------+
+ Please, insert the number to spell out 
+ >>
+```
+
+Versions
+=========
+
+- 1.0 - first relesae
 
 
 
